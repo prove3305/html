@@ -1,0 +1,15 @@
+73~80
+엔터티
+
+특수 문자표기 p.73
+
+79~ 목록태그
+
+<ol>, <ul> 은 자식인 <li> 태그가 필요
+
+
+<ol type="A">
+
+<ul type="circle"></ul>
+          square
+          disc

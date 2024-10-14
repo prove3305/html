@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레이아웃</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        #wrap{
+            width: 500px;
+            margin: 0 auto; /* 남은 좌우 값을 자동으로 반으로 나눠줌(자기 넓이가 무조건 있어야함!) */
+            border: 1px solid blue;}
+        #header{height: 80px; background-color: #fff799;}
+        #visual{height: 200px; background-color: #f19ec2;}
+        #contents{height: 300px; background-color: #00d7ee;}
+        #footer{height: 80px; background-color: #b3d465;}
+       
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">헤더</div>
+        <div id="visual">비주얼</div>
+        <div id="contents">컨텐츠</div>
+        <div id="footer">푸터</div>
+    </div>
+</body>
+</html>
