@@ -1,0 +1,8 @@
+가시속성 170.p
+    display: none; (주석처리 같은)
+
+    display: block;
+    
+    display: inline; (인라인 형태로 바꿈) float와는 다름
+        display: inline-block; (인라인 형태로 바꾸고 넓이를 줌)
+    
