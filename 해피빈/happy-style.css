@@ -1,0 +1,37 @@
+/* 초기화 */
+*{margin: 0; padding: 0;
+box-sizing: border-box; /*일정한 간격에 넣을때 패딩이나 보더에 영향을 받지않음*/}
+ul li{list-style: none; float: left;}
+
+/* index page */
+#wrap{width: 1140px; margin: 0 auto;}
+
+/* 헤더 영역 */
+#header{overflow:  hidden;}
+/* h1, #nav{float: left;} 다중처리 */
+h1{float: left;}
+#nav{float: left; margin: 15px 0 0 210px;}
+#nav li{font-size: 1.2em; font-weight: bold; padding: 5px 20px;}
+#top li{padding: 20px 15px;}
+
+/* contents */
+#container{overflow:  hidden; padding: 30px 0 60px 0; background-color: #eeebeb;}
+#contents ul{overflow: hidden;}
+#container h2, #container > p{
+text-align: center; padding: 15px 0;}
+.section{width: 50%; /* 1140px 반값 570px 부모 넓이를 반만 가짐 */
+float: left;
+}
+#container .section dl{
+width: 100%; /*dl은 section으로부터 가져와서 100%를 가져옴*/
+overflow: hidden;
+margin: 15px 0;
+}
+#container .section dl dt{width: 410px; float: left;}
+#container .section dl dd{width: 250px; float: left; padding-left: 20px; background-color: #fff; height: 207px;}
+#container .section dl dd h4{color: purple; margin-top: 30px;}
+#container .section dl dd p{padding: 15px 0;}
+#container .section dl dd .bold{font-weight: bold; font-size: 1.2em;}/*em 은 부모를기준?*/
+
+/* footer */
+#footer ul li{padding: 15px;}

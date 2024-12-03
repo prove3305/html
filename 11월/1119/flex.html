@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        div{border: 5px solid gray;
+            width: 500px; height: 500px;
+
+            display: flex; 
+            justify-content: space-around;
+             align-items: start; /* start center end */
+        }
+        p{width: 100px; height: 100px;}
+        p:first-child{background-color: red;} /* : 가상선택자 */
+        p:nth-child(2){background-color: yellow;}
+        p:nth-child(3){background-color: blue;}
+        p:nth-child(4){background-color: green;} 
+        /* p:last-child{background-color: aqua;} */
+    </style>
+</head>
+<body>
+    <div>
+        <p>box1</p>
+        <p>box2</p>
+        <p>box3</p>
+        <!-- <p>box4</p> -->
+    </div>
+</body>
+</html>

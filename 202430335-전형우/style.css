@@ -1,0 +1,61 @@
+/* 초기화 */
+*{margin: 0; padding: 0;
+box-sizing: border-box; /*일정한 간격에 넣을때 패딩이나 보더에 영향을 받지않음*/}
+ul li{list-style: none; float: left;}
+
+/* index page */
+#wrap{width: 1280px; margin: 0 auto;}
+
+/* 헤더 영역 */
+#header{overflow:  hidden;}
+/* h1, #nav{float: left;} 다중처리 */
+h1{float: left;}
+#nav{float: left; margin: 15px 0 0 310px;}
+#nav li{font-size: 1.2em; font-weight: bold; padding: 5px 20px;}
+#top li{padding: 20px 15px;}
+#top{position: relative; left: 300px;}
+
+/* 비주얼 영역 */
+#visual .container{background-color: #94715a; width: 100vw;}
+#visual .container img{position: relative; top: 40px;}
+
+/* ti영역 */
+#ti .title{padding: 100px 0 30px 0; font-size: 1.2em;} 
+
+#ti2 .title2{padding: 20px 0 10px 0; font-size: 1.2em;}
+
+/* shop 영역 */
+
+#shop .container{display: flex; justify-content: space-between;}
+.Shop{width: 30%; border: 1px solid #ccc; padding: 1em; background-color: #fff; margin-bottom: 3em;}
+.Shop img{width: 100%;}
+
+
+
+/* section */
+#container{overflow:  hidden; padding: 30px 0 60px 0;}
+#contents ul{overflow: hidden;}
+#container > p{
+text-align: center; padding: 15px 0;}
+.section{width: 50%; /* 1140px 반값 570px 부모 넓이를 반만 가짐 */
+float: left;
+}
+#container .section dl{
+width: 100%; /*dl은 section으로부터 가져와서 100%를 가져옴*/
+overflow: hidden;
+margin: 15px 0;
+}
+#container .section dl dt{width: 346px; float: left;}
+#container .section dl dd{width: 270px; float: left; padding-left: 20px; background-color: #eeebeb; height: 234px;}
+#container .section dl dd h4{color: purple; margin-top: 45px; margin-bottom: 10px;  font-size: 0.9em;}
+#container .section dl dd p{margin: px 0; font-size: 1.2em;}
+#container .section .sm{font-size: 0.8em; color: #868296; margin-top: 10px;}
+
+/* footer */
+#footer ul li{padding: 15px;}
+#footer{overflow: hidden;}
+#footer h5{float: left; margin-right: 80px; }
+#footer p{color: #999595; font-size: 0.8em; font-weight: bold;}
+#footer ul{position: relative; right: 15px; margin-top: 20px; color: #999595; font-size: 0.8em; font-weight: bold;}
+
+

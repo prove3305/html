@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        div{border: 5px solid gray;
+            width: 500px; height: 1500px;
+            position: relative;
+
+        }
+        p{width: 100px; height: 100px;}
+        p:first-child{background-color: red;} /* : 가상선택자 */
+        p:nth-child(2){background-color: yellow;
+            /* position: relative; 원래자리를 기준으로 이동 
+            position: absolute;    relative의 영향을 받음 
+            top: 30px;left: 150px;  */
+            position: fixed;  /* 부모를 따라가는게 아니고 화면에 고정 */
+            top: 0px; right: 0px;
+            
+        }
+        p:nth-child(3){background-color: blue;}
+        p:nth-child(4){background-color: green;} 
+        /* p:last-child{background-color: aqua;} */
+    </style>
+</head>
+<body>
+    <h1>h1-제목1</h1>
+    <h1>h1-제목2</h1>
+    <div>
+        <p>box1</p>
+        <p>box2</p>
+        <p>box3</p>
+        <p>box4</p>
+    </div>
+</body>
+</html>
